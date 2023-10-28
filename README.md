@@ -24,10 +24,9 @@ from octostudio import OctoStudio
 def on_message(shape_id):
     print(shape_id)
 
-def main():
-    octo = OctoStudio()
-    octo.on_message = on_message
-    octo.start()
+octo = OctoStudio()
+octo.on_message = on_message
+octo.start()
 ```
 
 

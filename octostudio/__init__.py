@@ -36,4 +36,3 @@ class OctoStudio:
                         self.on_message(shape_id)
                     received_ids.add(name)
                 # IPython.embed(); break
-                received_ids.add(name)
