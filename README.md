@@ -7,7 +7,8 @@ Specifically, it works with two blocks of OctoStudio:
 - beam to phones
 - wait for beam (work-in-progress)
 
-![](./octostudio.png)
+
+<img width=300 src="./octostudio.png" />
 
 ## Install
 
