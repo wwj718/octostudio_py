@@ -10,6 +10,8 @@ Specifically, it works with two blocks of OctoStudio:
 
 <img width=300 src="./octostudio.png" />
 
+WARNING⚠️ : only tested on windows 11, MacOS and iPhone. More compatibility work is in progress. If you encounter problems, please provide feedback.
+
 ## Install
 
 ```
