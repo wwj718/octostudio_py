@@ -74,3 +74,15 @@ octo = OctoStudio()
 octo.on_message = on_message
 octo.start()
 ```
+
+## For Snap! users
+
+Install dependencies:
+
+```bash
+pip install paho-mqtt octostudio
+``` 
+
+run the command: `octostudio-snap-bridge`
+
+Open [the demo project](https://snap.berkeley.edu/project?username=alan_russell&projectname=octostudio%2dsnap%2ddemo)
