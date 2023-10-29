@@ -53,6 +53,7 @@ run the command: `octostudio-scratch-bridge`
 
 Open [the demo project](https://create.codelab.club/projects/57459/editor/)
 
+[OctoStudio & Scratch demo video](https://wwj718.github.io/post/img/octo-scratch.mp4)
 
 ### Customize
 
