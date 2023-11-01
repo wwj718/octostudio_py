@@ -37,7 +37,7 @@ This library was originally used to bridge OctoStudio's Bluetooth radio with Mic
 
 To do this you need to install this package, then run the command: `octostudio-microblocks-bridge`
 
-Take a look at the [inner workings](./octostudio/cli.py)
+Take a look at the [inner workings](./octostudio/microblocks.py).
 
 ## For Scrarch users
 
@@ -47,7 +47,8 @@ Install dependencies:
 pip install paho-mqtt octostudio
 ``` 
 
-run the command: `octostudio-scratch-bridge`
+run the command: `octostudio-scratch-bridge`. Take a look at the [inner workings](./octostudio/scratch.py).
+
 
 Open [the demo project](https://create.codelab.club/projects/57459/editor/)
 
@@ -82,7 +83,7 @@ Install dependencies:
 pip install paho-mqtt octostudio
 ``` 
 
-run the command: `octostudio-snap-bridge`
+run the command: `octostudio-snap-bridge`. Take a look at the [inner workings](./octostudio/snap.py).
 
 Open [the demo project](https://snap.berkeley.edu/project?username=alan_russell&projectname=octostudio%2dsnap%2ddemo)
 
