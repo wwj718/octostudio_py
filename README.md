@@ -14,6 +14,7 @@ Specifically, it works with two blocks of OctoStudio:
 ## Install
 
 ```
+# Python >= 3.10
 pip install octostudio
 ```
 
@@ -94,3 +95,11 @@ Open [the demo project](https://snap.berkeley.edu/project?username=alan_russell&
 [send a message to OctoStudio](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/extend-octostudio/#%E5%BE%80-octostudio-%E9%87%8C%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF)
 
 I implemented this part directly in MicroBlocks instead of the bridge. I will update the relevant principles to this article soon.
+
+### Messages being delayed
+
+Reference here: [Maximum rate that advertisements can be scanned/read](https://github.com/hbldh/bleak/discussions/831).
+
+No solution found yet.
+
+[Related source code](https://github.com/wwj718/octostudio_py/blob/main/octostudio/__init__.py#L53), looking forward to you improving it.
