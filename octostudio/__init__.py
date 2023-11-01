@@ -51,7 +51,9 @@ class OctoStudio:
         # Maximum rate that advertisements can be scanned/read: https://github.com/hbldh/bleak/discussions/831
         # https://github.com/hbldh/bleak/issues/394
         async with BleakScanner(
-            self.detection_callback, service_uuids=self._octo_uuids.values()
+            # self.detection_callback, service_uuids=self._octo_uuids.values() 
+            # In order to be compatible with Windows & Android combination, do not use service_uuids
+            self.detection_callback
         ) as scanner:
             await self._stop_event.wait()
 
