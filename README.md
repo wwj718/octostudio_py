@@ -1,7 +1,5 @@
 # OctoStudio
 
-WARNING⚠️ : only tested on windows 11, MacOS and iPhone(Android may not work). More compatibility work is in progress. If you encounter problems, please provide feedback.
-
 This Python library pass messages between Python and [OctoStudio](https://octostudio.org/en/).
 
 Specifically, it works with two blocks of OctoStudio:
@@ -24,8 +22,8 @@ pip install octostudio
 ```
 from octostudio import OctoStudio
 
-def on_message(shape_id):
-    print(shape_id)
+def on_message(shape):
+    print(shape)
 
 octo = OctoStudio()
 octo.on_message = on_message
@@ -69,8 +67,8 @@ mqtt_client = mqtt.Client()
 mqtt_client.username_pw_set('guest', 'test')
 mqtt_client.connect("mqtt.aimaker.space", 1883, 60)
 
-def on_message(shape_id):
-    mqtt_client.publish("octo_message", shape_id)
+def on_message(shape):
+    mqtt_client.publish("octo_message", shape)
 octo = OctoStudio()
 octo.on_message = on_message
 octo.start()

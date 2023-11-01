@@ -8,9 +8,9 @@ mqtt_client = mqtt.Client()
 mqtt_client.username_pw_set('guest', 'test')
 mqtt_client.connect("mqtt.aimaker.space", 1883, 60)
 
-def on_message(shape_id):
-    # send_message(shape_id)
-    mqtt_client.publish("octo_message", shape_id)
+def on_message(shape):
+    # send_message(shape)
+    mqtt_client.publish("octo_message", shape)
 
 def main():
     print("🐱 ❤️  🐙")

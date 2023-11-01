@@ -3,8 +3,8 @@ from octostudio import OctoStudio
 
 microblocks_radio = Radio(receive_message=False)
 
-def on_message(shape_id):
-    microblocks_radio.send_string(shape_id)
+def on_message(shape):
+    microblocks_radio.send_string(shape)
 
 def main():
     print("🐰 ❤️  🐙")

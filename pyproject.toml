@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "octostudio"
-version = "0.3.0"
+version = "0.4.0"
 description = ""
 authors = ["wwj718 <wuwenjie718@gmail.com>"]
 readme = "README.md"
@@ -8,8 +8,8 @@ packages = [{include = "octostudio"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.13"
-adafruit-circuitpython-ble = "^10.0.4"
 microblocks-wifi-radio = "^0.4.0"
+bleak = "^0.21.1"
 
 
 [build-system]
