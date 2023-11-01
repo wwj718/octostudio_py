@@ -85,3 +85,11 @@ pip install paho-mqtt octostudio
 run the command: `octostudio-snap-bridge`
 
 Open [the demo project](https://snap.berkeley.edu/project?username=alan_russell&projectname=octostudio%2dsnap%2ddemo)
+
+## FAQ
+
+### How to send a message to OctoStudio?
+
+[send a message to OctoStudio](https://wwj718.github.io/post/%E7%BC%96%E7%A8%8B/extend-octostudio/#%E5%BE%80-octostudio-%E9%87%8C%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF)
+
+I implemented this part directly in MicroBlocks instead of the bridge. I will update the relevant principles to this article soon.
